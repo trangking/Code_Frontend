@@ -1,0 +1,28 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e3f2fd;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
+  height: 50px;
+  justify-content: space-between;
+}
+.Navbar a {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.Navbar a:hover {
+  color: #007bff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.Navbar .ant-btn-default {
+  background: #ffffff;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.88);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+  margin-right: 20px;
+}

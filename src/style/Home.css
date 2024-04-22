@@ -1,0 +1,98 @@
+.AreaHome {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+}
+.bodyHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 30%;
+  height: auto;
+  border: 1px solid #54946a;
+  margin-top: 10%;
+  backdrop-filter: blur(9px);
+}
+.bodyHome h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+.bodyHome .ant-upload-wrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-block-end: 10px;
+}
+.Modal {
+  display: flex;
+}
+.Modal
+  :where(.css-dev-only-do-not-override-1qfezbu).ant-modal
+  .ant-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+  padding: 20px 24px;
+  flex-direction: column;
+}
+.bodyHome .ant-btn-primary:disabled,
+.ant-btn-primary.ant-btn-disabled {
+  cursor: not-allowed;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.25);
+  background: rgba(126, 116, 116, 0.04);
+  box-shadow: none;
+}
+.bodyHome
+  :where(.css-dev-only-do-not-override-1qfezbu).ant-upload-wrapper
+  .ant-upload-list
+  .ant-upload-list-item {
+  position: relative;
+  height: 22px;
+  margin-top: 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  background-color: gray;
+}
+.bodyHome
+  :where(.css-dev-only-do-not-override-1qfezbu).ant-upload-wrapper
+  .ant-upload-list
+  .ant-upload-list-item
+  .ant-upload-list-item-actions
+  .ant-upload-list-item-action.ant-btn {
+  height: 20px;
+  line-height: 1;
+  margin-top: 2px;
+}
